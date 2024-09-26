@@ -1,0 +1,229 @@
+
+.header
+{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  background-color: white;
+  z-index: 1;
+}
+.left-section
+{
+  display: flex;
+  align-items: center;
+}
+.hamburger-menu
+{
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px ;
+  cursor: pointer;
+}
+.youtube-logo
+{
+  height: 20px;
+  cursor: pointer;
+}
+.middle-section
+{
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+}
+.search-bar 
+{
+  flex: 1;
+  height: 38px;
+  padding-left: 18px;
+  font-size: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(187, 182, 182);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+ 
+  width: 0;
+}
+.search-bar::placeholder
+{
+  font-family: Roboto,Arial;
+  font-size: 15px;
+}
+
+.saerch-button
+{
+ height: 38px;
+ width: 60px;
+ background-color: rgb(255, 255, 255);
+ border-width: 1px;
+ border-style: solid;
+ border-color: rgb(187, 182, 182);
+ border-top-right-radius: 50px;
+ border-bottom-right-radius: 50px;
+ margin-left: -1px;
+ margin-right: 10px;
+ cursor: pointer;
+}
+.search-icon
+{
+  height: 25px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+.voice-search-button
+{
+ height: 38px;
+ width: 38px;
+ border-radius: 19px;
+ border:none;
+ cursor: pointer;
+
+}
+.voice-search-button:hover
+{
+  background-color: rgb(216, 216, 216);
+}
+.voice-search-icon
+{
+  height: 26px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.right-section
+{
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+  
+}
+
+.upload-icon
+{
+  height: 24px;
+}
+.notification-box
+{
+  position: relative;
+}
+.notification-count
+{
+ position: absolute;
+ background-color: #cc0000;
+ color: white;
+ top: 2px;
+ right: 2px;
+ border-radius:100%;
+ font-size: 10px;
+}
+.notifications-icon
+{
+  height: 24px;
+}
+.profile-main
+{
+  height: 32px;
+  border-radius: 16px;
+}
+
+/* Scroll Head */
+.scroll-head
+{
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 55px;
+  left:0;
+  right:0;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+}
+.suggest-buttons
+{
+  margin-left: 100px;
+}
+.button-design
+{
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 6px ;
+  padding-bottom:6px ;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button-design2
+{
+  background-color: white;
+  color: rgb(57, 57, 57);
+  border: none;
+  padding-top: 6px ;
+  padding-bottom:6px ;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  
+}
+
+.button-design2:hover
+{
+  background-color: rgb(233, 230, 230);
+}
+
+.button-design2 img
+{
+  width: 10px;
+  height: 10px;
+}
+/* Side Bar */
+.side-bar
+{
+  background-color:rgb(255, 255, 255);
+  color: black;
+  position:fixed;
+  top: 55px;
+    left: 0px;
+    bottom: 0px;
+    width: 72px;
+    z-index: 2;
+}
+.side-bar-box
+{
+  background-color: white;
+  height: 75px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.side-bar-box img
+{
+  height: 21px;
+  cursor: pointer;
+}
+.side-bar-box div
+{
+  font-family:  Roboto,Arial;
+  font-size: 9px;
+}
